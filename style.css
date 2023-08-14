@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
     border-radius: 20px;  
     box-shadow:-20px -20px 20px rgb(0, 0, 0),
     20px 20px 20px rgb(0, 0, 0);
@@ -40,4 +41,18 @@ body{
 }
 .image-container img{
     height: 92vh;
+}
+.initial_para{
+    padding-top:5vh;
+    font-size: 30px;
+}
+.second_para{
+    font-size: 20px;
+}
+.form_container{
+    padding: 5vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
 }
