@@ -58,10 +58,10 @@ body{
     height: 90vh;
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    justify-content: space-between;
 }
 .create_btn{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: inherit;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -80,6 +80,7 @@ input{
     width: 100%;
     border: 0px;
     padding: 5px;
+    border-radius: 5px;
 }
 form{
     display: flex;
@@ -87,8 +88,13 @@ form{
     gap: 3vh;
 }
 .label_input{
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     gap: 1vh;
     width: 45%;
+}
+.footer{
+    font-size: 1.3rem;
+    padding-bottom: 5vh;
 }
