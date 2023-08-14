@@ -5,6 +5,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
+    font-family: 'Bebas Neue', sans-serif;
 }
 .main-container{
     background-color: rgb(231, 231, 231);
@@ -17,6 +18,25 @@ body{
     border-radius: 20px;  
     box-shadow:-20px -20px 20px rgb(0, 0, 0),
     20px 20px 20px rgb(0, 0, 0);
+}
+.overwrite{
+    padding: 1vh;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 71%;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 63.7vh;
+    
+}
+.image-container .overwrite img{
+    width: 30px;
+    height: 30px;
 }
 .image-container img{
     height: 92vh;
