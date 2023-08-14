@@ -17,25 +17,37 @@
         </div>
         <div class="form_container">
             <div class="initial_para">
-                This is not a real online service!You know you need something
+                This is not a real online service! You know you need something
                 like this in your life to help you realize your deepest dream.
             </div>
-            <div class="second_para">You <em>know</em> you want to.</div>
-            <form action="example.com/path" method="post">
-                <label for="first-name">First Name:</label>
-                <input id="first-name" name="first-name" type="text">
-                <label for="last-name">Last Name:</label>
-                <input type="text" name="last-name" id="last-name">
-                <label for="user_email">Email:</label>
-                <input type="email" id="user_email" name="user_email">
-                <label for="phone_number">Phone Number:</label>
-                <input type="number" id="phone_number" name="phone_number">
-                <label for="user_password">Password:</label>
-                <input type="password" name="user_password" id="user_password" required>
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" name="confirm_password" id="confirm_password" required>
+            <div class="second_para">You <em> know </em> you want to.</div>
+            <form action="#" method="post">
+                <div class="label_input">
+                    <label for="first_name">First Name:</label>
+                    <input id="first_name" name="first_name" type="text" required>
+                </div>
+                <div class="label_input">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                </div>
+                <div class="label_input">
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" name="user_email" required>
+                </div>
+                <div class="label_input">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="text" id="phone_number" name="phone_number" minlength="9" maxlength="9" required>
+                </div>
+                <div class="label_input">
+                    <label for="user_password">Password:</label>
+                    <input type="password" name="user_password" id="user_password" required>
+                </div>
+                <div class="label_input">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                </div>
+                <button type="submit" class="create_btn">Create Account</button>
             </form>
-            <button type="submit">Create Account</button>
             <div>Already have an account? <a href="#">Log in</a></div>
         </div>
     </div>
